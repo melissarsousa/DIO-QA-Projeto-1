@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<project>
+    <projectId>10000</projectId>
+    <projectKey>DS</projectKey>
+    <exportDate>2022-11-22 18:57:22 UTC</exportDate>
+    <folders/>
+    <testCases>
+        <testCase id="70492507" key="DS-T3">
+            <attachments/>
+            <confluencePageLinks/>
+            <createdBy>Melissa Rios de Sousa</createdBy>
+            <createdOn>2022-11-22 18:20:10 UTC</createdOn>
+            <customFields/>
+            <issues/>
+            <labels/>
+            <name><![CDATA[(STEP BY STEP) US 1 - Produto é escolhido e o usuário clica para ver seus detalhes]]></name>
+            <objective><![CDATA[Verificar a funcionalidade de clicar no produto e ver sua p&aacute;gina individual.]]></objective>
+            <owner>637bba08f6c85b343c082d6f</owner>
+            <priority><![CDATA[Normal]]></priority>
+            <status><![CDATA[Draft]]></status>
+            <parameters/>
+            <testDataWrapper/>
+            <testScript type="steps">
+                <steps>
+                    <step index="0">
+                        <customFields/>
+                        <description><![CDATA[O usu&aacute;rio entra na p&aacute;gina inicial da loja]]></description>
+                        <expectedResult><![CDATA[O usu&aacute;rio ver&aacute; a tela inicial com os produtos e os pre&ccedil;os. As fotos de cada produto s&atilde;o clic&aacute;veis.]]></expectedResult>
+                        <testData><![CDATA[Foto dos produtos, pre&ccedil;o dos produtos]]></testData>
+                    </step>
+                    <step index="1">
+                        <customFields/>
+                        <description><![CDATA[O usu&aacute;rio clica no produto escolhido]]></description>
+                        <expectedResult><![CDATA[A p&aacute;gina do produto individual abrir&aacute;. Se o produto estiver dispon&iacute;vel, o cliente ver&aacute; os detalhes do produto (dimens&otilde;es e material), o pre&ccedil;o e o bot&atilde;o de &ldquo;Adicionar no carrinho&rdquo;. Caso o produto n&atilde;o esteja dispon&iacute;vel, o cliente ver&aacute; um aviso de &ldquo;Produto indispon&iacute;vel&rdquo;, e um bot&atilde;o com &ldquo;Avise-me quando retornar ao estoque&rdquo;.]]></expectedResult>
+                        <testData><![CDATA[Foto dos produto, pre&ccedil;o do produto, descri&ccedil;&atilde;o do produto, material do produto]]></testData>
+                    </step>
+                </steps>
+            </testScript>
+        </testCase>
+    </testCases>
+</project>

@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<project>
+    <projectId>10000</projectId>
+    <projectKey>DS</projectKey>
+    <exportDate>2022-11-22 18:57:44 UTC</exportDate>
+    <folders/>
+    <testCases>
+        <testCase id="70493304" key="DS-T4">
+            <attachments/>
+            <confluencePageLinks/>
+            <createdBy>Melissa Rios de Sousa</createdBy>
+            <createdOn>2022-11-22 18:37:51 UTC</createdOn>
+            <customFields/>
+            <issues/>
+            <labels/>
+            <name><![CDATA[(BDD) US 2 - Frete grátis acima de $149.00 em compras]]></name>
+            <objective><![CDATA[​​​​Verificar funcionalidade do c&aacute;lculo do frete ao solicitar o c&aacute;lculo no carrinho]]></objective>
+            <owner>637bba08f6c85b343c082d6f</owner>
+            <priority><![CDATA[Normal]]></priority>
+            <status><![CDATA[Draft]]></status>
+            <parameters/>
+            <testDataWrapper/>
+            <testScript type="bdd">
+                <details><![CDATA[Given que o usuário adicionou menos que 149 dólares em compras
+
+And o usuário abrir o carrinho de compras
+
+When clicar em “Calcular o frete”
+
+Then o valor será calculado com base no CEP do usuário]]></details>
+            </testScript>
+        </testCase>
+    </testCases>
+</project>

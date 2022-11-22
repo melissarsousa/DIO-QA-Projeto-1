@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<project>
+    <projectId>10000</projectId>
+    <projectKey>DS</projectKey>
+    <exportDate>2022-11-22 18:56:53 UTC</exportDate>
+    <folders/>
+    <testCases>
+        <testCase id="70491737" key="DS-T2">
+            <attachments/>
+            <confluencePageLinks/>
+            <createdBy>Melissa Rios de Sousa</createdBy>
+            <createdOn>2022-11-22 18:07:16 UTC</createdOn>
+            <customFields/>
+            <issues/>
+            <labels/>
+            <name><![CDATA[(STEP BY STEP) US 2 - Frete grátis acima de $149.00 em compras]]></name>
+            <objective><![CDATA[Verificar funcionalidade do c&aacute;lculo do frete ao solicitar o c&aacute;lculo no carrinho]]></objective>
+            <owner>637bba08f6c85b343c082d6f</owner>
+            <priority><![CDATA[Normal]]></priority>
+            <status><![CDATA[Draft]]></status>
+            <parameters/>
+            <testDataWrapper/>
+            <testScript type="steps">
+                <steps>
+                    <step index="0">
+                        <customFields/>
+                        <description><![CDATA[Acessar o carrinho]]></description>
+                        <expectedResult><![CDATA[O usu&aacute;rio deve visualizar a tela do carrinho de compras]]></expectedResult>
+                        <testData><![CDATA[Produtos adicionados no carrinho, pre&ccedil;o de cada produto, quantidade de cada produto, pre&ccedil;o total, bot&atilde;o de &quot;Calcular frete&quot;]]></testData>
+                    </step>
+                    <step index="1">
+                        <customFields/>
+                        <description><![CDATA[Clicar em &quot;Calcular o frete&quot;]]></description>
+                        <expectedResult><![CDATA[O usu&aacute;rio deve entrar com seu CEP.]]></expectedResult>
+                        <testData><![CDATA[Produtos adicionados no carrinho, pre&ccedil;o de cada produto, quantidade de cada produto, pre&ccedil;o total, bot&atilde;o de &quot;Calcular frete&quot;, bot&atilde;o de &quot;Adicionar seu CEP&quot;.]]></testData>
+                    </step>
+                    <step index="2">
+                        <customFields/>
+                        <description><![CDATA[O usu&aacute;rio adiciona seu CEP]]></description>
+                        <expectedResult><![CDATA[Se a compra for de pelo menos 149 d&oacute;lares, o frete &eacute; gr&aacute;tis. Se n&atilde;o, &eacute; calculado com base no CEP do usu&aacute;rio.]]></expectedResult>
+                        <testData><![CDATA[Produtos adicionados no carrinho, pre&ccedil;o de cada produto, quantidade de cada produto, pre&ccedil;o total, bot&atilde;o de &quot;Calcular frete&quot;, caixa de entrada para CEP.]]></testData>
+                    </step>
+                </steps>
+            </testScript>
+        </testCase>
+    </testCases>
+</project>
